@@ -78,7 +78,7 @@ variable "subnet_id" {
 variable "s3_bucket" {
   description = "The name of the S3 bucket for storing Terraform state"
   type        = string
-  default     = "terraform-state-bucket-general"
+  default     = "terraform-state-bucket-ope1"
 }
 
 variable "bucket_name" {

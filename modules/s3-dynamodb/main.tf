@@ -29,7 +29,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "terraform_state" {
   rule {
     id     = "log"
     status = "Enabled"
- 
+
     # Required: apply rule to all objects
     filter {}
 
