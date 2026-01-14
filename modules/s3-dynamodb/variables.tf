@@ -1,7 +1,7 @@
 variable "bucket" {
   description = "The name of the S3 bucket"
   type        = string
-  default     = "champion-terraform-backend-bucket"
+  default     = "winnerclass-terraform-backend-bucket"
 }
 
 variable "table" {
@@ -13,8 +13,9 @@ variable "table" {
 variable "region" {
   description = "The AWS region"
   type        = string
-  default     = "us-west-1"
+  default     = "us-east-2"
 }
+
 
 
 
